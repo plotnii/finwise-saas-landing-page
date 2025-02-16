@@ -9,7 +9,7 @@ const logos = [
   {
     name: "Google Play",
     url: "https://play.google.com/intl/en_us/badges/",
-    img: "https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+    img: "/images/gp.png"
   },
   {
     name: "Galaxy Store",
