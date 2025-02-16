@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
                     priority
                     unoptimized
                     alt="App mockup"
-                    className="relative mt-12 md:mt-16 mx-auto z-10 animate-smooth-pulse"
+                    className="relative mt-12 md:mt-16 mx-auto z-10 animate-pulse"
                 />
             </div>
         </section>
@@ -54,3 +54,4 @@ const Hero: React.FC = () => {
 };
 
 export default Hero;
+
