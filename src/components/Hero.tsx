@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
                     <PlayStoreButton dark />
                 </div>
                 <Image
-                    src={heroDetails.centerImageSrc}
+                    src="/images/new-hero.webp"
                     width={384}
                     height={340}
                     quality={100}
