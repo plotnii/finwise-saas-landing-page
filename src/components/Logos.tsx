@@ -19,7 +19,7 @@ const logos = [
   {
     name: "Nova Posta",
     url: "https://novaposhta.ua",
-    img: "https://upload.wikimedia.org/wikipedia/commons/2/2e/Nova_Poshta_logo.svg"
+    img: "/images/novaposhta.png" // Заменен SVG на PNG для корректного отображения
   },
   {
     name: "MAIB",
@@ -40,25 +40,24 @@ const logos = [
 
 export default function LogoGrid() {
   return (
-    <div className="grid grid-cols-3 gap-6 p-6 md:grid-cols-4 lg:grid-cols-5">
+    <div className="flex flex-wrap justify-center gap-6 p-6">
       {logos.map((logo, index) => (
         <a 
           key={index} 
           href={logo.url} 
           target="_blank" 
           rel="noopener noreferrer" 
-          className="flex justify-center items-center p-4"
+          className="h-16 flex items-center"
         >
           <Image 
             src={logo.img} 
             alt={logo.name} 
-            width={150} 
-            height={60} 
-            className="h-16 w-auto object-contain opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition duration-300"
+            width={160} 
+            height={48} 
+            className="w-40 h-12 object-contain opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition duration-300"
           />
         </a>
       ))}
     </div>
   );
 }
-
