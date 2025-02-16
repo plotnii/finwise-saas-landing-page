@@ -1,3 +1,5 @@
+import path from 'path';  // Добавьте этот импорт
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   i18n: {
