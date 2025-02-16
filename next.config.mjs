@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   i18n: {
-    locales: ['en', 'ru', 'ro'],  // Поддерживаемые языки
-    defaultLocale: 'en',  // Язык по умолчанию
+    locales: ['en', 'ru', 'ro'],
+    defaultLocale: 'en',
   },
   reactStrictMode: true,  // Включаем строгий режим (по желанию)
 };
