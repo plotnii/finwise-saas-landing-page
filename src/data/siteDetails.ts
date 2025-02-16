@@ -1,12 +1,12 @@
 export const siteDetails = {
-    siteName: 'Finwise',
-    siteUrl: 'https://finwise-omega.vercel.app/',
+    siteName: 'iBEEP',
+    siteUrl: 'https://ibeep.vercel.app/',
     metadata: {
-        title: 'Finwise - Next.js and Tailwind CSS Landing Page Template',
-        description: 'Finwise empowers businesses with cutting-edge technology solutions to drive success and efficiency.',
+        title: 'iBEEP - Smart Vehicle Monitoring via Mobile App and QR Codes',
+        description: 'iBEEP provides an innovative solution for real-time vehicle monitoring. Scan QR codes, access detailed diagnostics, and manage your car seamlessly via the mobile app.',
     },
     language: 'en-us',
     locale: 'en-US',
-    siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`, // or use a string for the logo e.g. "TechStartup"
-    googleAnalyticsId: '', // e.g. G-XXXXXXX,
-}
+    siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`, // Update this if you have a custom logo path
+    googleAnalyticsId: '', // Add your Google Analytics ID if needed
+};
