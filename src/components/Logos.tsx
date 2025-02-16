@@ -37,7 +37,7 @@ const logos = [
 ];
 
 export default function LogoGrid() {
-  const scrollRef = useRef(null);
+  const scrollRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const scroll = () => {
