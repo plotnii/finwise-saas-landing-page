@@ -3,7 +3,7 @@ import { fileURLToPath } from 'url';  // Импортируем для рабо�
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  i18n: {
+//  i18n: {
     locales: ['en', 'ru', 'ro'],  // Поддерживаемые языки
     defaultLocale: 'en',  // Язык по умолчанию
   },
