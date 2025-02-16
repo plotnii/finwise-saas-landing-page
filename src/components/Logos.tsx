@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const logos = [
   {
     name: "App Store",
@@ -22,17 +24,17 @@ const logos = [
   {
     name: "MAIB",
     url: "https://www.maib.md",
-    img: "https://www.maib.md/storage/logo.svg"
+    img: "/images/maib.png" 
   },
   {
     name: "Paynet",
     url: "https://paynet.md",
-    img: "https://paynet.md/images/logo.svg"
+    img: "/images/paynet.png"
   },
   {
-    name: "Simpals",
-    url: "https://simpals.com",
-    img: "https://simpals.com/wp-content/uploads/2018/08/logo_new.svg"
+    name: "999",
+    url: "https://999.md",
+    img: "/images/999.png" 
   }
 ];
 
@@ -40,8 +42,8 @@ export default function LogoGrid() {
   return (
     <div className="grid grid-cols-3 gap-4 p-4">
       {logos.map((logo, index) => (
-        <a key={index} href={logo.url} target="_blank" rel="noopener noreferrer">
-          <img src={logo.img} alt={logo.name} className="w-32 h-auto mx-auto" />
+        <a key={index} href={logo.url} target="_blank" rel="noopener noreferrer" className="flex justify-center">
+          <Image src={logo.img} alt={logo.name} width={128} height={40} className="h-auto" />
         </a>
       ))}
     </div>
