@@ -35,7 +35,7 @@ const logos = [
 
 export default function LogoGrid() {
   return (
-    <div className="flex flex-wrap justify-center gap-8 p-6">
+    <div className="flex flex-wrap justify-center gap-8 py-12">
       {logos.map((logo, index) => (
         <a 
           key={index} 
