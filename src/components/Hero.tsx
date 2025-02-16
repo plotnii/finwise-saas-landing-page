@@ -36,22 +36,25 @@ const Hero: React.FC = () => {
                     <PlayStoreButton dark />
                 </div>
 
-                {/* Изображение */}
-                <Image
-                    src="/images/new-hero.webp"
-                    width={500}
-                    height={450}
-                    quality={100}
-                    sizes="(max-width: 768px) 100vw, 500px"
-                    priority
-                    unoptimized
-                    alt="App mockup"
-                    className="relative mt-12 md:mt-16 mx-auto z-10 animate-pulse"
-                />
+                {/* Изображение с анимацией радара */}
+                <div className="relative mt-12 md:mt-16 mx-auto z-10">
+                    <Image
+                        src="/images/new-hero.webp"
+                        width={500}
+                        height={450}
+                        quality={100}
+                        sizes="(max-width: 768px) 100vw, 500px"
+                        priority
+                        unoptimized
+                        alt="App mockup"
+                    />
+                    <div className="absolute inset-0 flex items-center justify-center">
+                        <div className="w-32 h-32 rounded-full bg-green-400 opacity-50 animate-ping"></div>
+                    </div>
+                </div>
             </div>
         </section>
     );
 };
 
 export default Hero;
-
