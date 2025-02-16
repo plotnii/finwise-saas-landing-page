@@ -12,11 +12,6 @@ const logos = [
     img: "/images/gp.png"
   },
   {
-    name: "Galaxy Store",
-    url: "https://developer.samsung.com/galaxy-store/badges.html",
-    img: "https://developer.samsung.com/galaxy-store/resources/images/gs-badge-en.svg"
-  },
-  {
     name: "Nova Posta",
     url: "https://novaposhta.ua",
     img: "/images/Nova_Poshta_2019_symbol.webp"
