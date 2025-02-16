@@ -24,7 +24,7 @@ const logos = [
   {
     name: "Paynet",
     url: "https://paynet.md",
-    img: "/images/paynet.png"
+    img: "/images/pnt.png"
   },
   {
     name: "999",
@@ -35,21 +35,21 @@ const logos = [
 
 export default function LogoGrid() {
   return (
-    <div className="flex flex-wrap justify-center gap-6 p-6">
+    <div className="flex flex-wrap justify-center gap-8 p-6">
       {logos.map((logo, index) => (
         <a 
           key={index} 
           href={logo.url} 
           target="_blank" 
           rel="noopener noreferrer" 
-          className="h-16 flex items-center"
+          className="h-24 flex items-center"
         >
           <Image 
             src={logo.img} 
             alt={logo.name} 
-            width={160} 
-            height={48} 
-            className="w-40 h-12 object-contain opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition duration-300"
+            width={320} 
+            height={96} 
+            className="w-80 h-24 object-contain opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition duration-300"
           />
         </a>
       ))}
