@@ -19,7 +19,7 @@ const logos = [
   {
     name: "Nova Posta",
     url: "https://novaposhta.ua",
-    img: "/images/Nova_Poshta_2019_symbol.webp
+    img: "/images/Nova_Poshta_2019_symbol.webp"
   },
   {
     name: "MAIB",
