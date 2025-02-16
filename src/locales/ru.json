@@ -1,6 +1,5 @@
 {
-  "hero.title": "Добро пожаловать в наше приложение",
-  "hero.subtitle": "Лучший сервис для вас",
-  "button.getStarted": "Начать"
+  "greeting": "Привет",
+  "welcome_message": "Добро пожаловать на наш сайт",
+  "button_label": "Нажми на меня"
 }
-
