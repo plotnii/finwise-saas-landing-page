@@ -28,19 +28,13 @@ const Hero: React.FC = () => {
                     <PlayStoreButton dark />
                 </div>
                 <Image
-                    src="/images/new-hero.webp"
-                    width={384}
-                    height={340}
-                    quality={100}
-                    sizes="(max-width: 768px) 100vw, 384px"
-                    priority={true}
-                    unoptimized={true}
-                    alt="app mockup"
-                    className='relative mt-12 md:mt-16 mx-auto z-10'
-                />
-            </div>
-        </section>
-    );
-};
-
-export default Hero;
+    src="/images/new-hero.webp"
+    width={500} // Увеличенный размер
+    height={450} // Увеличенный размер
+    quality={100}
+    sizes="(max-width: 768px) 100vw, 500px"
+    priority={true}
+    unoptimized={true}
+    alt="app mockup"
+    className="relative mt-12 md:mt-16 mx-auto z-10 animate-smooth-pulse"
+/>
