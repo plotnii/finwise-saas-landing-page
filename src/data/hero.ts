@@ -1,5 +1,5 @@
 export const heroDetails = {
     heading: 'Easy, Smart, Secure Car Monitoring',
-    subheading: 'From effortless budgeting to real-time investment insights, Finwise puts you in control of your money like never before',
+    subheading: 'iBeep keeps you informed—scan the QR code on your windshield and get real-time push notifications about your car’s status.',
     centerImageSrc: '/images/hero-mockup.webp',
 }
