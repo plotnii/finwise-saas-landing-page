@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
                             unoptimized
                             alt="App mockup"
                         />
-                        <div className="absolute inset-0 flex items-center justify-center">
+                        <div className="absolute inset-0 flex items-center justify-center -translate-y-10">
                             <div className="w-32 h-32 rounded-full bg-green-400 opacity-50 animate-ping"></div>
                         </div>
                     </div>
