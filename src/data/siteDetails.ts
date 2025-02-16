@@ -7,6 +7,6 @@ export const siteDetails = {
     },
     language: 'en-us',
     locale: 'en-US',
-    siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`, // Update this if you have a custom logo path
+    siteLogo: `${process.env.BASE_PATH || ''}/images/logo.png`, 
     googleAnalyticsId: '', // Add your Google Analytics ID if needed
 };
