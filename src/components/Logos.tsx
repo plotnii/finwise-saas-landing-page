@@ -4,7 +4,7 @@ const logos = [
   {
     name: "App Store",
     url: "https://developer.apple.com/app-store/marketing/guidelines/",
-    img: "https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+    img: "/images/appstore.svg"
   },
   {
     name: "Google Play",
