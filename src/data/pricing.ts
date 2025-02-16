@@ -22,16 +22,5 @@ export const tiers: IPricing[] = [
             'Advanced analytics',
         ],
     },
-    {
-        name: 'Enterprise',
-        price: 'Custom',
-        features: [
-            'Full cloud integration',
-            'Unlimited team members',
-            'Unlimited storage',
-            '24/7 dedicated support',
-            'Custom solutions',
-            'On-site training',
-        ],
-    },
+   
 ]
